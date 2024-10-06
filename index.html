@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Jokenpô-sozinho</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Jokenpô</h1>
+
+        <div id="buttons">
+
+            <button id="pedra" onclick="humanoEscolhendo('pedra')">&#128074;</button>
+            <button id="papel" onclick="humanoEscolhendo('papel')">&#128400;</button>
+            <button id="tesoura" onclick="humanoEscolhendo('tesoura')">&#129310;</button>
+
+        </div>
+
+
+        <p class="resultado"></p>
+        <p>Sua pontuação <span class="humano-pontuacao">0</span></p>
+        <p>machine_score <span class="machine-pontuacao">0</span></p>
+        <p>você escolheu <span class="escolha-humano"></span></p>
+        <p>Machine escolheu <span class="escolha-machine"></span></p>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
